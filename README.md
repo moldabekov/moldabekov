@@ -18,12 +18,11 @@
                         +========================+
 ```
 
+whoami
 ```
-$ whoami
-margulan@integrity ~ % cat /proc/self/status | grep -i "real"
-```
-
+$ margulan@integrity ~ % cat /proc/self/status
 Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun and writes eBPF probes before breakfast.
+```
 
 ```
 +--------------------------------------------------------------+
