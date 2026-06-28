@@ -22,9 +22,7 @@ whoami
 ```
 $ margulan@integrity ~ % cat /proc/self/status
 Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun and writes eBPF probes before breakfast.
-```
 
-```
 +--------------------------------------------------------------+
 |  SYSTEM PROFILE                                              |
 +--------------------------------------------------------------+
@@ -39,7 +37,7 @@ Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun an
 
 ---
 
-### `cat /proc/interests`
+### `dmesg | grep CURRENT_OPS`
 
 ```
 [0.000000] kernel: booting interests subsystem...
@@ -53,7 +51,7 @@ Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun an
 ```
 
 ---
-### `dmesg | grep CURRENT_OPS`
+### `cat /proc/interests`
 
 ```
 [sec] clarion        – eBPF-native runtime security platform
