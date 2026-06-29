@@ -16,12 +16,10 @@
                         |  INFORMATION WANTS     |
                         |  TO BE FREE            |
                         +========================+
-```
 
-whoami
-```
+
 $ margulan@integrity ~ % cat /proc/self/status
-Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun and writes eBPF probes before breakfast.
+Security engineer. Kernel hacker. Reads `kmalloc` slabs for fun and writes eBPF probes before breakfast.
 
 +--------------------------------------------------------------+
 |  SYSTEM PROFILE                                              |
@@ -34,9 +32,6 @@ Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun an
 |  Ring     : 0                                                |
 +--------------------------------------------------------------+
 ```
-
----
-
 ### `dmesg | grep CURRENT_OPS`
 
 ```
@@ -49,8 +44,6 @@ Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun an
 [0.000006] systems: Go, Rust, C – if it compiles to ELF, I speak it
 [0.000007] ai_sec: LLM-augmented red/blue teaming, autonomous pentest agents
 ```
-
----
 ### `cat /proc/interests`
 
 ```
@@ -59,8 +52,6 @@ Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun an
 [sec] kernel-fuzz    – upstream bug hunting & exploit development
 [dev] pcsync         – cross-platform file synchronization (Go)
 ```
-
----
 
 ### `cat /etc/philosophy`
 
@@ -73,14 +64,8 @@ Security engineer. Kernel hacker. The kind that reads `kmalloc` slabs for fun an
 // You can create art and beauty on a computer.
 // Computers can change your life for the better.
 //
-// addendum (2026):
-//   – Ship offensive tools to build better defenses.
-//   – Fuzz everything. Trust nothing. Verify at ring 0.
-//   – The best security is understanding the attack.
+
 ```
-
----
-
 ### `ss -pntu | grep -e (LISTEN|ESTAB|CLOSE-WAIT)`
 
 ```
