@@ -73,12 +73,3 @@ ESTAB      github.com/moldabekov          – you are here
 ESTAB      integritysec.io                – the day job
 CLOSE-WAIT /dev/urandom                   – social media presence
 ```
-
----
-
-<html>
-<sub>
-$ fortune<br>
-"There is no security through obscurity – only through understanding."
-</sub>
-</html>
